@@ -1,0 +1,100 @@
+#navBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: sticky;
+	top: 0px;
+}
+
+.navBarElements {
+	float: left;
+	font-size: 20px;
+	font-family: Impact;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+	background-color: #111;
+}
+
+#titleCard{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Courier New";
+	font-weight: bold;
+	background: red;
+}
+
+body{
+	background: gray;
+}
+
+h1{
+	font-size:50px;
+	text-align:center;
+	background-color: red;
+	font-family:"Courier New", serif;
+	color:white;
+	}
+h2{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
+	}
+
+#homeIntro{
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bold;
+	font-size: 1.5em;
+	margin-left:auto;
+	margin-right: auto;
+	}
+#mainHomeImage{
+		width: 500px;
+		display:block;
+		margin-left:auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+#headDefinitions{
+	text-align:center;
+	}
+.Definition{
+		background: white;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		
+	}
+.definitionTitle{
+	font-weight: bold;
+	}
+	
+.images{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: solid gray 3px;
+	}
+#algebraMainBody{
+		border: solid red;
+		background:white;
+		font-family: "Lucida Sans Unicode";
+	}
+
+.tableOfContent{
+		text-align:left;
+		text-decoration:none;
+	}
